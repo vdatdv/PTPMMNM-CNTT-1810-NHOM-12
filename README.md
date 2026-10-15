@@ -1,49 +1,43 @@
-# PHÁT TRIỂN PHẦN MỀM MÃ NGUỒN MỞ
+# Lab 01 — Vận hành dự án trên linux và viết shell script
 
-## NHÓM 12 - CNTT 1810
+Mã mẫu cho phần hướng dẫn và mã khởi đầu cho bài tự làm.
 
-**Trường:** Đại học Đại Nam
+## Mở bài
 
-**Môn học:** Phát triển phần mềm mã nguồn mở
+Mở terminal Ubuntu/WSL tại thư mục chứa `lab.sh`. Dùng PHP từ 8.1 và Git. Hướng dẫn chi tiết, sơ đồ, đoạn mã cần sửa, dữ liệu đối chiếu và rubric nằm trong tài liệu của bài lab.
 
-## 1. Thành viên nhóm
+```bash
+bash lab.sh check
+bash lab.sh run
+```
 
-| STT | Họ và tên      | Mã sinh viên |
-| --- | -------------- | ------------ |
-| 1   | Đỗ Vinh Đạt    | 1871020126   |
-| 2   | Vương Xuân Sơn | 1871020502   |
-| 3   | Nguyễn Phú Duy | 1871020196   |
+Mở http://127.0.0.1:8101. Giữ terminal máy chủ hoạt động; dùng terminal thứ hai để kiểm thử. Nhấn Ctrl+C để dừng.
 
-## 2. Danh sách bài thực hành
+Bài này không cần PostgreSQL, Composer hoặc framework.
 
-| Bài Lab | Nội dung                  | Nhánh Git |
-| ------- | ------------------------- | --------- |
-| Lab01   | Linux và Shell Script     | lab1      |
-| Lab02   | Module PHP                | lab2      |
-| Lab03   | Danh sách sự kiện và Form | lab3      |
-| Lab04   | Session và Cookie         | lab4      |
-| Lab05   | PostgreSQL                | lab5      |
+## Kiểm tra bài
 
-## 3. Công nghệ sử dụng
+```bash
+bash lab.sh test
+bash lab.sh extend
+```
 
-- PHP 8.1+
-- Git và GitHub
-- Bash Shell
-- HTML/CSS
-- PostgreSQL
-- Visual Studio Code
+`test` kiểm tra phần mẫu; `extend` kiểm tra phần tự làm. Các vị trí TODO là nhiệm vụ cần hoàn thiện; không sửa test để bỏ qua lỗi.
 
-## 4. Hướng dẫn xem bài Lab
+Kết quả mở rộng cần đạt: `SHELL_CASES=4 FAILED=0`. Hoàn thành script kiểm tra môi trường và script quét mã PHP; xử lý được thư mục thiếu, thư mục rỗng, tệp sai cú pháp và đường dẫn có khoảng trắng.
 
-Mỗi bài Lab được lưu trữ trên một nhánh Git riêng.
+## Tệp nộp
 
-- `main`: Nhánh chính, chứa thông tin nhóm.
-- `lab1`: Bài thực hành 01.
-- `lab2`: Bài thực hành 02.
-- `lab3`: Bài thực hành 03.
-- `lab4`: Bài thực hành 04.
-- `lab5`: Bài thực hành 05.
+Giữ mã nguồn, dữ liệu mẫu và kiểm thử. Ghi lại lệnh chạy trong README. Không đưa `.local`, mật khẩu hoặc dữ liệu cá nhân thật vào kho mã và gói nộp. Nộp đúng commit theo yêu cầu của bài; nếu dùng Actions, đính kèm lần chạy tương ứng.
 
-## 5. Repository bài tập gốc
 
-https://github.com/FIT-DNU/Open-Source-Software-Development
+## Phần trình bày giao diện
+
+Lab này giữ CSS cục bộ tại `public/assets/css/app.css`. HTML nằm trong `public/`; các lab có nhiều trang dùng `templates/header.php` và `templates/footer.php`. Có thể lần từ các lớp `form-field`, `event-item`, `error-summary` sang CSS để đọc cách trình bày; Lab01 chỉ dùng phần trang giới thiệu.
+
+Các lớp, nhãn và bố cục chỉ phục vụ hiển thị. Giữ nguyên khối PHP, GET/POST, tên trường, giá trị option, hidden input và thuộc tính kiểm tra đầu vào khi thực hành. Không cần JavaScript, thư viện hoặc bước build mới để chạy giao diện.
+
+
+## Giao diện Material 3
+
+Màu và kiểu chữ nằm trong `public/assets/css/tokens.css`; bố cục trong `app.css`. Không có bước build hoặc thư viện mới.
