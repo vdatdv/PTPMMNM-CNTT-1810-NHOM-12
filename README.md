@@ -16,13 +16,13 @@
 
 ## 2. Danh sách bài thực hành
 
-| Bài Lab | Nội dung                  | Nhánh Git                                                              |
-| ------- | ------------------------- | ---------------------------------------------------------------------- |
-| Lab01   | Linux và Shell Script     | [lab1](https://github.com/vdatdv/PTPMMNM-CNTT-1810-NHOM-12/tree/lab1)  |
-| Lab02   | Module PHP                | [lab2](https://github.com/vdatdv/PTPMMNM-CNTT-1810-NHOM-12/tree/lab2)  |
-| Lab03   | Danh sách sự kiện và Form | [lab3] (https://github.com/vdatdv/PTPMMNM-CNTT-1810-NHOM-12/tree/lab3) |
-| Lab04   | Session và Cookie         | lab4                                                                   |
-| Lab05   | PostgreSQL                | lab5                                                                   |
+| Bài Lab | Nội dung                  | Nhánh Git                                                             |
+| ------- | ------------------------- | --------------------------------------------------------------------- |
+| Lab01   | Linux và Shell Script     | [lab1](https://github.com/vdatdv/PTPMMNM-CNTT-1810-NHOM-12/tree/lab1) |
+| Lab02   | Module PHP                | [lab2](https://github.com/vdatdv/PTPMMNM-CNTT-1810-NHOM-12/tree/lab2) |
+| Lab03   | Danh sách sự kiện và Form | [lab3](https://github.com/vdatdv/PTPMMNM-CNTT-1810-NHOM-12/tree/lab3) |
+| Lab04   | Session và Cookie         | lab4                                                                  |
+| Lab05   | PostgreSQL                | lab5                                                                  |
 
 ## 3. Công nghệ sử dụng
 
