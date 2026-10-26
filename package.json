@@ -1,0 +1,17 @@
+{
+  "name": "designmark-web-application-development",
+  "version": "1.0.0",
+  "description": "DesignMark là ứng dụng web demo để góp ý trực tiếp trên ảnh giao diện. Người thiết kế tổ chức ảnh theo dự án, màn hình và phiên bản. Người duyệt đặt điểm hoặc khoanh vùng trên ảnh, viết nhận xét đúng vị trí, trả lời trong thread và theo dõi trạng thái xử lý.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.118.0"
+  }
+}

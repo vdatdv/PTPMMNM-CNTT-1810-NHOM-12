@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Runtime breaker cache & sqlite journals
+data/.supabase_breaker
+data/*.sqlite-journal
+data/*.sqlite-wal
+data/*.sqlite-shm
+
+# IDE & Assistant config
+.agents/
+skills-lock.json
